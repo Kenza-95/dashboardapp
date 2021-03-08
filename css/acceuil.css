@@ -1,0 +1,25 @@
+
+
+.title{
+	position: relative;
+    color: #000000;
+    padding-top: 250px;
+    font-size: 28px;
+}
+.font{
+	background: url("https://st4.depositphotos.com/1144687/19906/i/1600/depositphotos_199061946-stock-photo-digital-business-interface-blurry-night.jpg") no-repeat;
+	color : white;
+	background-size: cover;
+}
+.container{
+
+}
+
+.footer{
+	position: relative;
+	margin-top: 167px;
+	border-top: 0.5px solid grey;
+	text-align: center;
+	background: #000000;
+    box-shadow: 0px -1px 6px white;
+}

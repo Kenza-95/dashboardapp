@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ponda first website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/acceuil.css">
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+
+  <div class="load-html" id="Footer" data-source="header.html"></div>
+
+
+
+    <div class="font">
+      <div class="container">
+       <h3 class="title text-center"> Welcome to ticket service</h3>
+    
+      <form class="form-inline col-md-4 ml-auto mr-auto">
+        <input class="form-control mr-lg-2 " type="search" placeholder="Search for a specific ticket" aria-label="Search" size="28">
+        <button class="btn btn-dark my-4 my-sm-4" type="submit">Search</button>
+      </form>
+    </div>
+
+
+
+    <div class="load-html" id="Footer" data-source="footer.html"></div>
+    
+
+</div>
+
+
+
+<script>
+  $(function () {
+      $(".load-html").each(function () {
+          $(this).load(this.dataset.source);
+      });
+  });
+  </script>
+</body>
+</html>
