@@ -15,6 +15,7 @@
     <link href="./css/bootstrap.min.css" rel="stylesheet" />
     <link href="./css/light-bootstrap-dashboard.css?v=2.0.0 " rel="stylesheet" />
     <link href="./css/tickets.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- CSS Just for demo purpose, don't include it in your project -->
     
 </head>
@@ -158,77 +159,92 @@
     
 
 
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 searchh">
-                            <form action="#" method="get">
-                                <div class="input-group">
-                                    <!-- USE TWITTER TYPEAHEAD JSON WITH API TO SEARCH -->
-                                    <input class="form-control" id="system-search" name="q" placeholder="Search for" size="15" required>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="col-md-12">
-                         <table class="table table-list-search">
-                                    <thead>
-                                        <tr>
-                                            <th>N° note</th>
-                                            <th>Sales ORG</th>
-                                            <th>Document type</th>
-                                            <th>Customer name</th>
-                                            <th>Industry</th>
-                                            <th>Date</th>
-                                            <th>Requisitor</th>
-                                            <th>Amount</th>
-                                            <th>Approuver</th>
-                                            <th>Status</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td><a href="tickets_detaille.html">0003023001</a></td>
-                                            <td>PD FRANCE</td>
-                                            <td>Litigation Returns</td>
-                                            <td>APTGOSS MENUISERIES INDUSTRIELS</td>
-                                            <td>SGGS INDUSTRY</td>
-                                            <td>08/06/2020</td>
-                                            <td>JEAN DUPONT</td>
-                                            <td>10.096.19 EUR</td>
-                                            <td></td>
-                                            <td>NON</td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="tickets_detaille.html">0003023002</a></td>
-                                            <td>SGD IS FRANCE</td>
-                                            <td>Litigation Returns</td>
-                                            <td>APTGOSS MENUISERIES INDUSTRIELS</td>
-                                            <td>SGGS INDUSTRY</td>
-                                            <td>08/06/2020</td>
-                                            <td>JEAN DUPONT</td>
-                                            <td>10.096.19 EUR</td>
-                                            <td></td>
-                                            <td>NON</td>
-                                        </tr>
-                                        <tr>
-                                            <td> <a href="tickets_detaille.html">0003023003</a></td>
-                                            <td>COMPANY ZO</td>
-                                            <td>Litigation Returns</td>
-                                            <td>GLASSOLUTIONS GLASSVERSGGS</td>
-                                            <td>SGGS INDUSTRY</td>
-                                            <td>08/06/2020</td>
-                                            <td>JEAN DUPONT</td>
-                                            <td>10.096.19 EUR</td>
-                                            <td></td>
-                                            <td>
-                                                <span class="glyphicon glyphicon-hourglass"></span>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>   
+                <div class="row">
+                    <div class="col-md-12 searchh">
+                        <form action="#" method="get">
+                            <div class="input-group">
+                                <!-- USE TWITTER TYPEAHEAD JSON WITH API TO SEARCH -->
+                                <input class="form-control" id="system-search" name="q" placeholder="Search for" size="15" required>
                             </div>
+                        </form>
+                    </div>
+                    <div class="col-md-11">
+                     <table class="table table-list-search">
+                                <thead>
+                                    <tr>
+                                        <th>N° note</th>
+                                        <th>Sales ORG</th>
+                                        <th>Document type</th>
+                                        <th>Customer name</th>
+                                        <th>Industry</th>
+                                        <th>Date</th>
+                                        <th>Requisitor</th>
+                                        <th>Amount</th>
+                                        <th>Approuver</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a href="tickets_detaille.html">0003023001</a></td>
+                                        <td>PD FRANCE</td>
+                                        <td>Litigation Returns</td>
+                                        <td>APTGOSS MENUISERIES INDUSTRIELS</td>
+                                        <td>SGGS INDUSTRY</td>
+                                        <td>08/06/2020</td>
+                                        <td>JEAN DUPONT</td>
+                                        <td>10.096.19 EUR</td>
+                                        <td></td>
+                                        <td>
+                                            <span class="glyphicon glyphicon-hourglass nonc"></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="tickets_detaille.html">0003023002</a></td>
+                                        <td>SGD IS FRANCE</td>
+                                        <td>Litigation Returns</td>
+                                        <td>APTGOSS MENUISERIES INDUSTRIELS</td>
+                                        <td>SGGS INDUSTRY</td>
+                                        <td>08/06/2020</td>
+                                        <td>JEAN DUPONT</td>
+                                        <td>10.096.19 EUR</td>
+                                        <td></td>
+                                        <td>
+                                            <span class="glyphicon glyphicon-hourglass nonc"></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td> <a href="tickets_detaille.html">0003023003</a></td>
+                                        <td>COMPANY ZO</td>
+                                        <td>Litigation Returns</td>
+                                        <td>GLASSOLUTIONS GLASSVERSGGS</td>
+                                        <td>SGGS INDUSTRY</td>
+                                        <td>08/06/2020</td>
+                                        <td>JEAN DUPONT</td>
+                                        <td>10.096.19 EUR</td>
+                                        <td></td>
+                                        <td>
+                                            <span class="glyphicon glyphicon-hourglass nonc"></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td> <a href="tickets_detaille.html">0003023003</a></td>
+                                        <td>COMPANY ZO</td>
+                                        <td>Litigation Returns</td>
+                                        <td>GLASSOLUTIONS GLASSVERSGGS</td>
+                                        <td>SGGS INDUSTRY</td>
+                                        <td>08/06/2020</td>
+                                        <td>JEAN DUPONT</td>
+                                        <td>10.096.19 EUR</td>
+                                        <td>L, Jack</td>
+                                        <td>
+                                            <span class="glyphicon glyphicon-ok-sign nonz"></span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>   
                         </div>
                     </div>
-                
 
 
             </div>

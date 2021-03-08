@@ -86,3 +86,20 @@
     position: relative;
     border-radius: 10%;
 }
+
+.nonc{
+    position: relative;
+    font-size: 20px;
+    color : rgb(255, 153, 0);
+}
+
+.nonz{
+    position: relative;
+    font-size: 20px;
+    color : rgb(0, 255, 34);
+}
+
+.btnnn{
+    position: relative;
+    margin-bottom: 25px;
+}
