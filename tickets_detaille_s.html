@@ -110,47 +110,45 @@
             <div class="content">
 
 
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-11 searchh">
+                            <form action="#" method="get">
+                                <div class="input-group">
+                                    <!-- USE TWITTER TYPEAHEAD JSON WITH API TO SEARCH -->
+                                    <input class="form-control" id="system-search" name="q" placeholder="recherche" size="15" required>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-11">
+                
+                         <table class="table table-list-search">
+                            <thead>
+                                <tr>
+                                    <th>N° Commande</th>
+                                    <th>Nom du fournisseur</th>
+                                    <th>Montant</th>
+                                    <th>Date</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="tickets.html">0003023004</a></td>
+                                    <td>COMPANY ZO</td>
+                                    <td>1 000,00 euro</td>
+                                    <td>08/06/2020</td>
+                                    <td>
+                                        <span class="glyphicon glyphicon-ok-sign nonz"></span>
+                                    </td>
+                                </tr>
+                                    </tbody>
+                                </table>   
+                            </div>
+                        </div>
+                    </div>
+                
 
-<div class="container">
-	<div class="row">
-        <div class="col-md-11 searchh">
-            <form action="#" method="get">
-                <div class="input-group">
-                    <!-- USE TWITTER TYPEAHEAD JSON WITH API TO SEARCH -->
-                    <input class="form-control" id="system-search" name="q" placeholder="recherche" size="15" required>
-                </div>
-            </form>
-        </div>
-		<div class="col-md-11">
-
-    	 <table class="table table-list-search">
-            <thead>
-                <tr>
-                    <th>N° Commande</th>
-                    <th>Nom du fournisseur</th>
-                    <th>Montant</th>
-                    <th>Date</th>
-                    <th>Status</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><a href="tickets.html">0003023001</a></td>
-                    <td>PD FRANCE</td>
-                    <td>1 500,00 euro</td>
-                    <td>08/06/2020</td>
-                    <td>
-                        <span class="glyphicon glyphicon-hourglass nonc"></span>
-                    </td>
-                </tr>
-                    </tbody>
-                </table>   
-            </div>
-        </div>
-    </div>
-
-    
-    
 <div class="container2">
 	<div class="row">
         <div class="col-md-11 searchh">
@@ -166,12 +164,12 @@
     	 <table class="table table-list-search">
             <tbody>
                 <tr>
-                    <td> <label > N° Commande : </label >  <a href="tickets.html">0003023001</a><br />
-                        <label > Nom du fournisseur : </label > PD FRANCE<br />
-                        <label >  Montant : </label > >1 500,00 euro<br />
+                    <td> <label > N° Commande : </label >  <a href="tickets.html">0003023004</a><br />
+                        <label > Nom du fournisseur : </label > COMPANY ZO<br />
+                        <label >  Montant : </label > 1 000,00 euro<br />
                         <label > date : </label >   08/06/2020<br />
                     
-                        <label >  status : </label > <span class="glyphicon glyphicon-hourglass nonc"></span>
+                        <label >  status : </label > <span class="glyphicon glyphicon-ok-sign nonz"></span>
                     </td>
                 </tr>
                     </tbody>
@@ -180,18 +178,24 @@
         </div>
     </div>
 
+    
+    
     <ul id="progressbar">
         <br />
         <br />
         <br />
         <li class="active acc" id="account"><strong>Step 2 <br /> Management</strong></li>
-        <li id="personal"><strong>D. Luc <br/> 04/06/21</strong></li>
-        <li id="personal"><strong>R. Alexa <br/> 04/06/21 <br /> Validation</strong></li>
+        <li id="personal" class="active"><strong>D. Luc <br/> 04/06/21</strong></li>
+        <li id="personal" class="active"><strong>R. Alexa <br/> 04/06/21 <br /> Validation</strong></li>
         <li class="active acc" id="account"><strong>Step 3 <br /> Purchasing</strong></li>
-        <li id="personal"><strong>R. Leclerc <br/> 04/06/21 <br /> Validation</strong></li>
+        <li id="personal" class="active"><strong>R. Leclerc <br/> 04/06/21 <br /> Validation</strong></li>
         <li class="active acc" id="account"><strong>Step 4 <br /> Budget </strong></li>
-        <li id="personal"><strong>L. Isabella <br/> 04/06/21 <br /> [signe]</strong></li>
+        <li id="personal" class="active" ><strong>L. Isabella <br/> 04/06/21 <br /> [signe]</strong></li>
     </ul> <!-- fieldsets -->
+
+
+    
+
 
 
     <button type="button" class="btn btn-dark"> <a href="/tickets.html">Mes Tickets </a> </button>

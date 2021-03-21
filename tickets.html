@@ -31,26 +31,26 @@
             <div class="sidebar-wrapper">
                 <div class="logo">
                     <a href="" class="simple-text">
-                        Ticket Process
+                        Commandes
                     </a>
                 </div>
                 <ul class="nav">
                     <li>
                         <a class="nav-link" href="dashboard.html">
                             <i class="nc-icon nc-chart-pie-35"></i>
-                            <p>Dashboard</p>
+                            <p>Tableau</p>
                         </a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" >
                             <i class="nc-icon nc-circle-09"></i>
-                            <p>Tickets</p>
+                            <p>Commandes</p>
                         </a>
                     </li>
                     <li>
                         <a class="nav-link" href="./chartes.html">
                             <i class="nc-icon nc-notes"></i>
-                            <p>Graphs</p>
+                            <p>Graphe</p>
                         </a>
                     </li>
                     <li>
@@ -70,24 +70,24 @@
             <!-- Navbar -->
             <nav class="navbar navbar-expand-lg " color-on-scroll="500">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href=""> Tickets  </a>
+                    <a class="navbar-brand" href=""> Commandes </a>
                     <div class="collapse navbar-collapse justify-content-end" id="navigation">
                         <ul class="nav navbar-nav mr-auto">
                             <li class="nav-item">
                                 <a href="#" class="nav-link" data-toggle="dropdown">
-                                    <span class="d-lg-none">Tickets</span>
+                                    <span class="d-lg-none">Commandes</span>
                                 </a>
                             </li>
                         </ul>
                         <ul class="navbar-nav ml-auto ff">
                             <li class="nav-item">
                                 <a class="nav-link" href="#pablo">
-                                    <span class="no-icon">Account</span>
+                                    <span class="no-icon">Comptes</span>
                                 </a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <span class="no-icon">My tickets</span>
+                                    <span class="no-icon">Mes commandes</span>
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <a class="dropdown-item" href="#">En cours</a>
@@ -96,7 +96,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/">
-                                    <span class="no-icon">Log out</span>
+                                    <span class="no-icon">Déconexion</span>
                                 </a>
                             </li>
                         </ul>
@@ -117,7 +117,7 @@
             <form action="#" method="get">
                 <div class="input-group">
                     <!-- USE TWITTER TYPEAHEAD JSON WITH API TO SEARCH -->
-                    <input class="form-control" id="system-search" name="q" placeholder="Search for" size="15" required>
+                    <input class="form-control" id="system-search" name="q" placeholder="recherche" size="15" required>
                 </div>
             </form>
         </div>
@@ -134,15 +134,10 @@
     	 <table class="table table-list-search">
                     <thead>
                         <tr>
-                            <th>N° note</th>
-                            <th>Sales ORG</th>
-                            <th>Document type</th>
-                            <th>Customer name</th>
-                            <th>Industry</th>
+                            <th>N° Commande</th>
+                            <th>Nom du fournisseur</th>
+                            <th>Montant</th>
                             <th>Date</th>
-                            <th>Requisitor</th>
-                            <th>Amount</th>
-                            <th>Approuver</th>
                             <th>Status</th>
                         </tr>
                     </thead>
@@ -150,13 +145,8 @@
                         <tr>
                             <td><a href="tickets_detaille.html">0003023001</a></td>
                             <td>PD FRANCE</td>
-                            <td>Litigation Returns</td>
-                            <td>APTGOSS MENUISERIES INDUSTRIELS</td>
-                            <td>SGGS INDUSTRY</td>
+                            <td>1 500,00 euro</td>
                             <td>08/06/2020</td>
-                            <td>JEAN DUPONT</td>
-                            <td>10.096.19 EUR</td>
-                            <td></td>
                             <td>
                                 <span class="glyphicon glyphicon-hourglass nonc"></span>
                             </td>
@@ -164,41 +154,26 @@
                         <tr>
                             <td><a href="tickets_detaille.html">0003023002</a></td>
                             <td>SGD IS FRANCE</td>
-                            <td>Litigation Returns</td>
-                            <td>APTGOSS MENUISERIES INDUSTRIELS</td>
-                            <td>SGGS INDUSTRY</td>
+                            <td>3 500,00 euro</td>
                             <td>08/06/2020</td>
-                            <td>JEAN DUPONT</td>
-                            <td>10.096.19 EUR</td>
-                            <td></td>
                             <td>
                                 <span class="glyphicon glyphicon-hourglass nonc"></span>
                             </td>
                         </tr>
                         <tr>
-                            <td> <a href="tickets_detaille.html">0003023003</a></td>
+                            <td> <a href="tickets_detaille_m.html">0003023003</a></td>
                             <td>COMPANY ZO</td>
-                            <td>Litigation Returns</td>
-                            <td>GLASSOLUTIONS GLASSVERSGGS</td>
-                            <td>SGGS INDUSTRY</td>
+                            <td>1 200,00 euro</td>
                             <td>08/06/2020</td>
-                            <td>JEAN DUPONT</td>
-                            <td>10.096.19 EUR</td>
-                            <td></td>
                             <td>
                                 <span class="glyphicon glyphicon-hourglass nonc"></span>
                             </td>
                         </tr>
                         <tr>
-                            <td> <a href="tickets_detaille.html">0003023003</a></td>
+                            <td> <a href="tickets_detaille_s.html">0003023004</a></td>
                             <td>COMPANY ZO</td>
-                            <td>Litigation Returns</td>
-                            <td>GLASSOLUTIONS GLASSVERSGGS</td>
-                            <td>SGGS INDUSTRY</td>
+                            <td>1 000,00 euro</td>
                             <td>08/06/2020</td>
-                            <td>JEAN DUPONT</td>
-                            <td>10.096.19 EUR</td>
-                            <td>L, Jack</td>
                             <td>
                                 <span class="glyphicon glyphicon-ok-sign nonz"></span>
                             </td>
@@ -210,6 +185,92 @@
     </div>
 
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<div class="container2">
+	<div class="row">
+        <div class="col-md-12 searchh">
+            <form action="#" method="get">
+                <div class="input-group">
+                    <!-- USE TWITTER TYPEAHEAD JSON WITH API TO SEARCH -->
+                    <input class="form-control" id="system-search" name="q" placeholder="recherche" size="15" required>
+                </div>
+            </form>
+        </div>
+
+        <div class="btnnn">
+            <button type="button" class="btn btn-info"  data-toggle="modal" data-target="#exampleModalLong">Ajouté un ticket </button>
+            <button type="button" class="btn btn-danger"  data-toggle="modal" data-target="#exampleModalLong">Supprimer un ticket</button>
+
+
+        </div>
+
+
+		<div class="col-md-11">
+    	 <table class="table table-list-search">
+                    <tbody>
+                        <tr>
+
+                            
+                            <td> 
+                                <label > N° Commande : </label >  <a href="tickets_detaille_m.html">0003023001</a><br />
+                                <label > Nom du fournisseur : </label > PD FRANCE<br />
+                                <label >  Montant : </label > 1 500,00 euro<br />
+                                <label > date : </label >   08/06/2020<br />
+                            
+                                <label >  status : </label > <span class="glyphicon glyphicon-hourglass nonc"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            
+                            <td> 
+                                <label > N° Commande : </label >  <a href="tickets_detaille_m.html">0003023002</a><br />
+                                <label > Nom du fournisseur : </label > SGD IS FRANCE<br />
+                                <label >  Montant : </label > 3 500,00 euro<br />
+                                <label > date : </label >   08/06/2020<br />
+                            
+                                <label >  status : </label > <span class="glyphicon glyphicon-hourglass nonc"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            
+                            <td> 
+                                <label > N° Commande : </label >  <a href="tickets_detaille_m.html">0003023003</a><br />
+                                <label > Nom du fournisseur : </label > COMPANY ZO<br />
+                                <label >  Montant : </label > 1 200,00 euro<br />
+                                <label > date : </label >   08/06/2020<br />
+                            
+                                <label >  status : </label > <span class="glyphicon glyphicon-hourglass nonc"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> <label > N° Commande : </label >  <a href="tickets_detaille_s.html">0003023004</a><br />
+                                <label > Nom du fournisseur : </label > COMPANY ZO<br />
+                                <label >  Montant : </label > 1 000,00 euro<br />
+                                <label > date : </label >   08/06/2020<br />
+                            
+                                <label >  status : </label > <span class="glyphicon glyphicon-ok-sign nonz"></span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>   
+            </div>
+        </div>
+    </div>
+
                 
             </div>
             <footer class="footer">
@@ -221,7 +282,7 @@
                             <script>
                                 document.write(new Date().getFullYear())
                             </script>
-                            <a>Made by our team: Kenza Bessaci et le reste</a>
+                            <a>Réalisé par : Kenza Bessaci et ilhem Barrache et lila Achour</a>
                         </p>
                     </nav>
                 </div>

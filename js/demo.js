@@ -22,17 +22,17 @@ demo = {
         Chartist.Pie('#chartPreferences', dataPreferences, optionsPreferences);
 
         Chartist.Pie('#chartPreferences', {
-            labels: ['53%', '36%', '11%'],
-            series: [53, 36, 11]
+            labels: ['3/4', '1/4', '0/4'],
+            series: [75, 25, 0]
         });
 
 
         var dataSales = {
-            labels: ['01/03/21', '02/03/21', '03/03/21', '04/03/21', '05/03/21', '06/03/21', '07/03/21', '08/03/21'],
+            labels: ['01/03/21', '02/03/21'],
             series: [
-                [287, 385, 490, 492, 554, 586, 698, 695, 752, 788, 846, 944],
-                [67, 152, 143, 240, 287, 335, 435, 437, 539, 542, 544, 647],
-                [23, 113, 67, 108, 190, 239, 307, 308, 439, 410, 410, 509]
+                [3, 4, 4],
+                [1, 2, 2],
+                [0, 1, 1]
             ]
         };
 
@@ -59,7 +59,7 @@ demo = {
         var optionsSales = {
             lineSmooth: false,
             low: 0,
-            high: 800,
+            high: 10,
             showArea: true,
             height: "245px",
             axisX: {
